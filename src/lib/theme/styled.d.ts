@@ -5,6 +5,7 @@ declare module "styled-components" {
    colors: {
     bg: {
         disabled: string;
+        global: string;
         marine: {
             calm: {
                 enabled: string;
@@ -113,6 +114,11 @@ declare module "styled-components" {
             }
         } 
         neutral: {
+            global: {
+                base: string;
+                enabled: string;
+                disabled: string;
+            }
             calm: {
                 enabled: string;
             }
@@ -178,6 +184,7 @@ declare module "styled-components" {
         }
         neutral: {
             calm: {
+                enabled: string;
                 disabled: string;
             }
             loud: {

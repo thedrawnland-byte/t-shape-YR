@@ -5,19 +5,19 @@ export const lightTheme = {
 		bg: {
 			calm: {
 				section: colors.white,
-				global: colors.grey[50],
-				disabled: colors.grey[100],
+				global: colors.white,
+				disabled: colors.neutral[300],
 			},
 		},
 
 		text: {
 			calm: {
-				main: colors.grey[50],
+				main: colors.neutral[900],
 			},
 			loud: {
-				main: colors.grey[800],
-				secondary: colors.grey[500],
-				disabled: colors.grey[300],
+				main: colors.neutral[800],
+				secondary: colors.neutral[500],
+				disabled: colors.neutral[300],
 			},
 		},
 	},
@@ -43,19 +43,19 @@ export const darkTheme = {
 		bg: {
 			calm: {
 				section: colors.black,
-				global: colors.grey[900],
-				disabled: colors.grey[600],
+				global: colors.neutral[900],
+				disabled: colors.neutral[600],
 			},
 		},
 
 		text: {
 			calm: {
-				main: colors.grey[700],
+				main: colors.neutral[700],
 			},
 			loud: {
-				main: colors.grey[100],
-				secondary: colors.grey[300],
-				disabled: colors.grey[500],
+				main: colors.neutral[100],
+				secondary: colors.neutral[300],
+				disabled: colors.neutral[500],
 			},
 		},
 	},

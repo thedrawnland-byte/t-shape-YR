@@ -1,16 +1,21 @@
 import React from "react";
+import { ThemeProvider} from "styled-components";
+import { lightTheme } from "./lib/theme";
+import {Badge} from "./lib/badge"
 import { GlobalStyle } from "./lib/theme";
-import { Placeholder } from "./lib/placeholder";
+import {Button, Card} from "./lib"
 
 function App() {
 	const switcher = false;
 	return (
-		<>
+		<ThemeProvider theme={lightTheme}>
 			<GlobalStyle />
 			<main>
-				<Placeholder text="Привет мир!" />
+				<Card text ="Hello T-shape" appearance="red" textSize="large">
+					<p> SOME CHILDREN </p>
+				</Card>
 			</main>
-		</>
+		</ThemeProvider>
 	);
 }
 
